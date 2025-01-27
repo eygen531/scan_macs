@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SWITCH_IPS=("192.168.88.50")  # Массив IP-адресов коммутаторов
+SWITCH_IPS=("192.168.1.1 192.168.1.2")  # Массив IP-адресов коммутаторов
 COMMUNITY="public"          # SNMP community string
 OUTPUT_FILE="/home/user/8/macs.txt"
 PREVIOUS_OUTPUT_FILE="/home/user/8/previous_macs.txt"
